@@ -2,14 +2,14 @@
 int main(void)
 {
 	char password, prove;
-	printf("ÇëÊäÈëÃÜÂë:");
+	printf("è¯·è¾“å…¥å¯†ç :");
 	scanf("%s", &password);
 	getchar();
-	printf("ÇëÈ·ÈÏÃÜÂëY/N");
+	printf("è¯·ç¡®è®¤å¯†ç Y/N");
 	prove = getchar();
 	if (prove == 'Y')
-		printf("È·ÈÏ³É¹¦");
+		printf("ç¡®è®¤æˆåŠŸ");
 	else
-		printf("È·ÈÏÊ§°Ü");
+		printf("ç¡®è®¤å¤±è´¥");
 	return 0;
 }
